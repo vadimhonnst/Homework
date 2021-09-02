@@ -1,0 +1,42 @@
+Первое ДЗ 
+Linux terminal (GitBash) commands
+
+2) Создать папку  - mkdir papka1
+3) Зайти в папку - cd papka1
+4) Создать 3 папки - mkdir 1 2 3
+5) Зайти в любоую папку - cd 1
+6) Создать 5 файлов (3 txt, 2 json) - > 1_file.txt;> 2_file.txt;> 3_file.txt;> 4_json.json;> 5_json.json
+7) Создать 3 папки -mkdir doc1 doc2 doc3
+8. Вывести список содержимого папки  - ls -la 
+9) + Открыть любой txt файл - vim 1_file.txt; 
+10) + написать туда что-нибудь, любой текст - use key I; 1) Рад познакомиться; 2)Happy new year; esc;
+11) + сохранить и выйти. - :wq; enter
+12) Выйти из папки на уровень выше - cd../ 
+—
+13) переместить любые 2 файла, которые вы создали, в любую другую папку. 
+	mv /c/course/papka1/1/1_file.txt /c/cource/papka1/2
+	mv /c/course/papka1/1/4_json.json /c/cource/papka1/2
+14) скопировать любые 2 файла, которые вы создали, в любую другую папку.
+	cp /c/course/papka1/1/2_file.txt /c/course/papka1/3
+	cp /c/course/papka1/1/5_json.json /c/course/papka1/3
+15) Найти файл по имени  
+	find ./course/ -name "1_fi*"
+16) просмотреть содержимое в реальном времени (команда grep) изучите как она работает.
+	grep -r "new" ./course/*
+	result : ./course/papka1/2/1_file.txt:2) Happy new year
+17) вывести несколько первых строк из текстового файла 
+	head -2 1_file.txt 	
+18) вывести несколько последних строк из текстового файла
+	tail -2 1_file.txt
+19) просмотреть содержимое длинного файла (команда less) изучите как она работает.
+	less 1_file.txt
+20) вывести дату и время - date
+=========
+
+Задание *
+1) Отправить http запрос на сервер http://162.55.220.72:5005/object_info_3?name=Vadim&age=32&salary=1000
+	
+	 curl -i "http://162.55.220.72:5005/object_info_3?name=Vadim&age=32&salary=1000"
+
+
+
