@@ -1,0 +1,17 @@
+Structure bag report
+1.Summary 
+2.Project
+3.Component
+4.Version
+6.Description
+	-Steps to reproduce
+	-Result 
+	-Expected result
+5.Severity
+6.Priority
+7.Status
+8.Author
+9.Assigned to
+10.Environment
+11.Attachment
+
