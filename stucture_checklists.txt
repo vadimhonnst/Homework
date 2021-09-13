@@ -1,0 +1,14 @@
+The structure of the checklist on the example of operations with the file
+	
+	NAME	|	RESULT		|	COMMENT		|
+  
+ 1.File opeation	bug				 
+ 
+ - Create file		ok
+ 
+ - Open file		ok
+
+ - Save document        ok
+
+ - Print                fail			bug#1                     
+	
